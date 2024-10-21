@@ -1,0 +1,14 @@
+body {
+    background-color: #d1b76f
+}
+h1, p {
+color: rgb(108,98,120)
+}
+.card {
+    background-color: rgb(212,213,177); /* Darker tone */
+    color: #ffffff; /* White text for contrast */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+

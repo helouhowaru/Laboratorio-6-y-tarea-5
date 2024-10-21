@@ -4,15 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratorio 6 y Tarea 5</title>
-
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/css_index.css">
 </head>
 <body>
-    <nav>
-        <a href="pag1.html">Página 1</a>
-        <a href="pag2.html">Página 2</a>
-        <a href="pag3.html">Página 3</a>
+    <nav class="navbar navbar-expand-lg navbar-light" id="navigation">
+        <a class="navbar-brand" href="#">Laboratorio 6 y Tarea 5</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="pag1.html">Página 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pag2.html">Página 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pag3.html">Página 3</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-    <h1>SIGNALIS</h1>
-    <img src="jbzVBmWWuCsy8kyFUTml9E8n.avif" alt="SIGNALIS PIC" width="50%" height="50%">
+
+    <div class="container mt-4">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">SIGNALIS</h1>
+                <p class="card-text">Signalis fue mi introducción al mundo de los survival horror.</p>
+                <img src="IMG/jbzVBmWWuCsy8kyFUTml9E8n.avif" alt="SIGNALIS PIC" class="img-fluid mb-3">
+                <p class="card-text">Es un juego con una historia ambigua y con una ambientación igual de magnifica que sus antecesores.</p>
+                <audio id="audio" src="AUDIOS/35. Die Toteninsel (Emptiness).mp3"></audio>
+                <p class="card-text">Tiene unos visuales maravillosos con cinematicas repentinas que te ponen a experimentar en primera persona el juego.</p>
+                <p class="card-text">Sus visuales se asemejan a los de sus predecesores con imagenes similares a lo que verías en un juego de PS2.</p>
+                <img src="IMG/Signalis_08.webp" alt="ImagenSignalis" class="img-fluid mb-3">
+                <p class="card-text">El menú inicial tiene algo muy curioso, y es que el ojo que aparece al seleccionar alguna de las configuraciones sigue tu puntero.</p>
+                <p class="card-text">Es un efecto que puede ser escalofriante para algunos, a mí me parece una inclusión genial.</p>
+                <img src="IMG/2148d44272f5c7a399311739e983f88f.jpg" alt="ImagenSignalis2" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!--JS-->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/JS_Index.js"></script>
 </body>
 </html>
